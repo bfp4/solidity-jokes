@@ -1,0 +1,10 @@
+.body-container {
+    display: flex;
+    justify-content: center;
+}
+
+.jokes-grid {
+    display: grid;
+    grid-template-columns: 54vh 54vh;
+    grid-gap: 30px;
+}

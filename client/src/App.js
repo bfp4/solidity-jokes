@@ -1,6 +1,10 @@
 import { useEffect, useState } from "react"
 import Web3 from "web3"
 import { JOKES_ABI, JOKES_ADDRESS } from './config';
+import "./App.css"
+
+import Header from "./components/header/Header";
+import JokeGrid from "./components/jokes-grid/JokeGrid";
 
 function App() {
   const [account, setAccount] = useState(); 
@@ -30,6 +34,8 @@ function App() {
 
   return (
     <div>
+      <Header />
+      <JokeGrid /> 
       {
         jokes.map(el => `Joke: ${el.joke}, Punchline: ${el.punchline}`)
       }

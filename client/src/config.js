@@ -1,4 +1,4 @@
-export const JOKES_ADDRESS = '0xC421c6c00a9E47B04eBb6fb6Bd44a4C82BBF0593';
+export const JOKES_ADDRESS = '0x14ac55C2bf73b9BF9bB0f1F5577bFd36F16f07B6';
 
 export const JOKES_ABI = [
     {

@@ -1,0 +1,12 @@
+.header-banner {
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Neonderthaw", sans-serif;
+}
+
+.header-text {
+    font-size: 56px;
+    text-decoration: underline;
+}
