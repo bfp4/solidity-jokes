@@ -1,9 +1,9 @@
 .joke-box {
-    height: 160px;
     background-color: rgb(158, 97, 158);
     border-radius: 12px;
     box-shadow: 8px 8px 6px purple;
-    cursor: pointer;
+    padding: 7px;
+    margin-bottom: 24px;
 }
 
 .line-container {
@@ -12,4 +12,8 @@
 
 .line {
     font-size: 20px;
+}
+
+.punchline {
+    font-size: 10px;
 }

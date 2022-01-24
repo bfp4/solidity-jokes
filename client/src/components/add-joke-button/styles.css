@@ -1,0 +1,14 @@
+.add-button-container {
+    justify-self: end;
+    font-size: 40px;
+    background-color: rgb(61, 143, 61);
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 3px 3px 6px green;
+    border: none;
+    cursor: pointer;
+}
